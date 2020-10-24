@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FirstLessonCFT</string>
+    <string name="first_fragment">Первый фрагмент</string>
+    <string name="second_fragment">Второй фрагмент</string>
+    <string name="third_fragment">Третий фрагмент</string>
+    <string name="move_forward">К следующему фрагменту</string>
+    <string name="move_backward">К предыдущему фрагменту</string>
+    <string name="first_fragment_info">onBackPressed() вырубает приложение.</string>
+    <string name="get_phone_contacts">Получить список контактов</string>
+</resources>
