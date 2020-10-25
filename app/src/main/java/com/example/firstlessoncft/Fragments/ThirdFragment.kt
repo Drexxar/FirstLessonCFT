@@ -49,12 +49,8 @@ class ThirdFragment : Fragment() {
             ?.commit()
     }
 
-    private fun getContacts(){
-        val hasPermission = context?.let { ContextCompat.checkSelfPermission(it, Manifest.permission.READ_CONTACTS) }
-        if (hasPermission != PackageManager.PERMISSION_GRANTED) {
-            Log.w("", "READ_CONTACTS permission is not granted. You should grant it for this app")
-            return
-        }
-
+    private fun getContacts() {
+        Toast.makeText(context, "TODO: Content provider", Toast.LENGTH_SHORT).show()
     }
+
 }
